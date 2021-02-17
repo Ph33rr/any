@@ -1,5 +1,5 @@
 <?
-//DTMF generator
+//DTMF generator 
 //by Ph33r
 
 
@@ -108,7 +108,7 @@ function encode_int($n) {
 }
 
 
-//description of snd/au format available at http://www.wotsit.org/search.asp?s=music
+//description of snd/au
 $output = ".snd" .                //"magic number"
     "\0\0\0\x18" .                //data offset
     encode_int(strlen($output)) . //data size (0xffffffff = unknown)
